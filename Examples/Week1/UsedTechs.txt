@@ -1,0 +1,3 @@
+XAMPP
+Android Studio
+PhpMyAdmin
