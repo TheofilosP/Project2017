@@ -1,0 +1,14 @@
+cdcd
+cd /c
+ls
+cd git/
+ls
+git config --global user.name "tangeli"
+git config --global user.email vaggelhs_vlahos@hotmail.com
+git clone https://github.com/TheofilosP/Project2017.git
+ls
+cd Project2017/
+git add Text.txt
+git status
+git commit -m "first commit" Text.txt
+git push -u origin master
