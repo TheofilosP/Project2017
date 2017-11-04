@@ -32,10 +32,6 @@
         "source": "C:\\Users\\theof\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f8156c1632d920c1a0bcc35dc06f98bf\\res\\layout\\tooltip.xml"
     },
     {
-        "merged": "C:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_login.xml.flat",
-        "source": "C:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\src\\main\\res\\layout\\activity_user_login.xml"
-    },
-    {
         "merged": "C:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
         "source": "C:\\Users\\theof\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f8156c1632d920c1a0bcc35dc06f98bf\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },

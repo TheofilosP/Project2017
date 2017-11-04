@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Nov 01 13:07:57 EET 2017
+#Sat Nov 04 12:20:43 EET 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png
@@ -359,7 +359,6 @@
 172.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\anim\\abc_fade_in.xml
 39.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 143.set=DEX
-249.set=ANDROID_RESOURCE
 18.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout\\notification_template_part_time.xml
 14.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 45.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\color\\abc_primary_text_material_light.xml
@@ -368,7 +367,6 @@
 104.set=ANDROID_RESOURCE
 97.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png
 20.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable\\abc_btn_check_material.xml
-249.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout\\activity_user_login.xml
 203.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 72.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\mipmap-mdpi-v4\\ic_launcher_round.png
 126.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
@@ -447,7 +445,7 @@
 181.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 121.set=ANDROID_RESOURCE
 227.set=ANDROID_RESOURCE
-count=250
+count=249
 27.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 77.set=ANDROID_RESOURCE
 79.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
@@ -737,7 +735,6 @@ count=250
 203.set=ANDROID_RESOURCE
 97.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 20.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
-249.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 72.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 228.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout\\abc_activity_chooser_view_list_item.xml
 224.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13

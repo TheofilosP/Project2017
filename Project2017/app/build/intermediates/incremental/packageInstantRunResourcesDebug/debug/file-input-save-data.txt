@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Nov 01 13:07:53 EET 2017
+#Sat Nov 04 12:20:25 EET 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\anim\\abc_slide_out_bottom.xml
@@ -247,7 +247,6 @@
 151.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 86.set=ANDROID_RESOURCE
 49.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
-243.set=ANDROID_RESOURCE
 184.set=ANDROID_RESOURCE
 24.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 47.set=ANDROID_RESOURCE
@@ -342,7 +341,6 @@
 60.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout\\notification_template_big_media.xml
 114.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 91.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
-243.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 166.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 136.set=ANDROID_RESOURCE
 141.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
@@ -436,7 +434,7 @@
 181.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 121.set=ANDROID_RESOURCE
 227.set=ANDROID_RESOURCE
-count=244
+count=243
 27.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 77.set=ANDROID_RESOURCE
 79.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
@@ -702,7 +700,6 @@ count=244
 114.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout-v17\\abc_alert_dialog_title_material.xml
 39.set=ANDROID_RESOURCE
 91.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png
-243.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout\\activity_user_login.xml
 166.file=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\color\\abc_tint_edittext.xml
 197.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 120.base=C\:\\Users\\theof\\AndroidStudioProjects\\Project2017\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
