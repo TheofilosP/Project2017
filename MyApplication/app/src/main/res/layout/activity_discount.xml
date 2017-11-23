@@ -7,12 +7,12 @@
     tools:context="com.example.lazarakos.myapplication.Discount">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="387dp" />
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="431dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteX="38dp"
         tools:layout_editor_absoluteY="301dp" />
 
     <TextView
@@ -64,21 +64,26 @@
         tools:layout_editor_absoluteX="262dp"
         tools:layout_editor_absoluteY="301dp" />
 
-    <SeekBar
-        android:id="@+id/seekBar"
-        style="@style/Widget.AppCompat.SeekBar.Discrete"
-        android:layout_width="114dp"
-        android:layout_height="39dp"
-        android:max="100"
-        android:progress="3"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="158dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="106dp"
+        android:layout_height="72dp"
+        android:text="Check it first"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="182dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="26dp" />
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="179dp"
-        android:layout_height="24dp"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="36dp" />
+        android:layout_width="183dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="155dp" />
 
 </android.support.constraint.ConstraintLayout>
