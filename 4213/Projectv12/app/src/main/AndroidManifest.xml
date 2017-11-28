@@ -25,7 +25,9 @@
         </activity>
         <activity android:name=".Register" />
         <activity android:name=".BusinessLogin" />
-        <activity android:name=".BusinessForm"></activity>
+        <activity android:name=".BusinessForm" />
+        <activity android:name=".Add_Product" />
+        <activity android:name=".Discount"></activity>
     </application>
 
 </manifest>
