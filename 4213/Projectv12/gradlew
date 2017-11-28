@@ -3,14 +3,334 @@
 ##############################################################################
 ##
 ##  Gradle start up script for UN*X
-##
-##############################################################################
+### Increase the maximum file descriptors if we can.
+  if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+      MAX_FD_LIMIT=`ulimit -H -n`
+      if [ $? -eq 0 ] ; then
+          if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+              MAX_FD="$MAX_FD_LIMIT"
+          fi
+          ulimit -n $MAX_FD
+          if [ $? -ne 0 ] ; then
+              warn "Could not set maximum file descriptor limit: $MAX_FD"
+          fi
+      else
+          warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+      fi
+  fi
+
+  # For Da# Increase the maximum file descriptors if we can.
+          if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+              MAX_FD_LIMIT=`ulimit -H -n`
+              if [ $? -eq 0 ] ; then
+                  if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                      MAX_FD="$MAX_FD_LIMIT"
+                  fi
+                  ulimit -n $MAX_FD
+                  if [ $? -ne 0 ] ; then
+                      warn "Could not set maximum file descriptor limit: $MAX_FD"
+                  fi
+              else
+                  warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+              fi
+          fi
+
+          # For Da# Increase the maximum file descriptors if we can.
+                  if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                      MAX_FD_LIMIT=`ulimit -H -n`
+                      if [ $? -eq 0 ] ; then
+                          if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                              MAX_FD="$MAX_FD_LIMIT"
+                          fi
+                          ulimit -n $MAX_FD
+                          if [ $? -ne 0 ] ; then
+                              warn "Could not set maximum file descriptor limit: $MAX_FD"
+                          fi
+                      else
+                          warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                      fi
+                  fi
+
+                  # For Da# Increase the maximum file descriptors if we can.
+                          if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                              MAX_FD_LIMIT=`ulimit -H -n`
+                              if [ $? -eq 0 ] ; then
+                                  if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                      MAX_FD="$MAX_FD_LIMIT"
+                                  fi
+                                  ulimit -n $MAX_FD
+                                  if [ $? -ne 0 ] ; then
+                                      warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                  fi
+                              else
+                                  warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                              fi
+                          fi
+
+                          # For Da
+# Increase the maximum file descriptors if we can.
+if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+    MAX_FD_LIMIT=`ulimit -H -n`
+    if [ $? -eq 0 ] ; then
+        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+            MAX_FD="$MAX_FD_LIMIT"
+        fi
+        ulimit -n $MAX_FD
+        if [ $? -ne 0 ] ; then
+            warn "Could not set maximum file descriptor limit: $MAX_FD"
+        fi
+    else
+        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+    fi
+fi
+
+# For Da# Increase the maximum file descriptors if we can.
+        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+            MAX_FD_LIMIT=`ulimit -H -n`
+            if [ $? -eq 0 ] ; then
+                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                    MAX_FD="$MAX_FD_LIMIT"
+                fi
+                ulimit -n $MAX_FD
+                if [ $? -ne 0 ] ; then
+                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                fi
+            else
+                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+            fi
+        fi
+# Increase the maximum file descriptors if we can.
+if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+    MAX_FD_LIMIT=`ulimit -H -n`
+    if [ $? -eq 0 ] ; then
+        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+            MAX_FD="$MAX_FD_LIMIT"
+        fi
+        ulimit -n $MAX_FD
+        if [ $? -ne 0 ] ; then
+            warn "Could not set maximum file descriptor limit: $MAX_FD"
+        fi
+    else
+        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+    fi
+fi
+
+# For Da# Increase the maximum file descriptors if we can.
+        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+            MAX_FD_LIMIT=`ulimit -H -n`
+            if [ $? -eq 0 ] ; then
+                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                    MAX_FD="$MAX_FD_LIMIT"
+                fi
+                ulimit -n $MAX_FD
+                if [ $? -ne 0 ] ; then
+                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                fi
+            else
+                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+            fi
+        fi
+
+        # For Da# Increase the maximum file descriptors if we can.
+                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                    MAX_FD_LIMIT=`ulimit -H -n`
+                    if [ $? -eq 0 ] ; then
+                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                            MAX_FD="$MAX_FD_LIMIT"
+                        fi
+                        ulimit -n $MAX_FD
+                        if [ $? -ne 0 ] ; then
+                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                        fi
+                    else
+                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                    fi
+                fi
+
+                # For Da# Increase the maximum file descriptors if we can.
+                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                            MAX_FD_LIMIT=`ulimit -H -n`
+                            if [ $? -eq 0 ] ; then
+                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                    MAX_FD="$MAX_FD_LIMIT"
+                                fi
+                                ulimit -n $MAX_FD
+                                if [ $? -ne 0 ] ; then
+                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                fi
+                            else
+                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                            fi
+                        fi
+
+                        # For Da
+        # For Da# Increase the maximum file descriptors if we can.
+                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                    MAX_FD_LIMIT=`ulimit -H -n`
+                    if [ $? -eq 0 ] ; then
+                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                            MAX_FD="$MAX_FD_LIMIT"
+                        fi
+                        ulimit -n $MAX_FD
+                        if [ $? -ne 0 ] ; then
+                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                        fi
+                    else
+                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                    fi
+                fi
+
+                # For Da# Increase the maximum file descriptors if we can.
+                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                            MAX_FD_LIMIT=`ulimit -H -n`
+                            if [ $? -eq 0 ] ; then
+                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                    MAX_FD="$MAX_FD_LIMIT"
+                                fi
+                                ulimit -n $MAX_FD
+                                if [ $? -ne 0 ] ; then
+                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                fi
+                            else
+                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                            fi
+                        fi
+
+                        # For Da# Increase the maximum file descriptors if we can.
+                                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                    MAX_FD_LIMIT=`ulimit -H -n`
+                                    if [ $? -eq 0 ] ; then
+                                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                            MAX_FD="$MAX_FD_LIMIT"
+                                        fi
+                                        ulimit -n $MAX_FD
+                                        if [ $? -ne 0 ] ; then
+                                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                        fi
+                                    else
+                                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                    fi
+                                fi
+
+                                # For Da# Increase the maximum file descriptors if we can.
+                                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                            MAX_FD_LIMIT=`ulimit -H -n`
+                                            if [ $? -eq 0 ] ; then
+                                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                    MAX_FD="$MAX_FD_LIMIT"
+                                                fi
+                                                ulimit -n $MAX_FD
+                                                if [ $? -ne 0 ] ; then
+                                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                fi
+                                            else
+                                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                            fi
+                                        fi
+
+                                        # For Da# Increase the maximum file descriptors if we can.
+                                                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                    MAX_FD_LIMIT=`ulimit -H -n`
+                                                    if [ $? -eq 0 ] ; then
+                                                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                            MAX_FD="$MAX_FD_LIMIT"
+                                                        fi
+                                                        ulimit -n $MAX_FD
+                                                        if [ $? -ne 0 ] ; then
+                                                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                        fi
+                                                    else
+                                                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                    fi
+                                                fi
+
+                                                # For Da
 
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
 DEFAULT_JVM_OPTS=""
 
 APP_NAME="Gradle"
-APP_BASE_NAME=`basename "$0"`
+# Increase the maximum file descriptors if we can.
+if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+    MAX_FD_LIMIT=`ulimit -H -n`
+    if [ $? -eq 0 ] ; then
+        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+            MAX_FD="$MAX_FD_LIMIT"
+        fi
+        ulimit -n $MAX_FD
+        if [ $? -ne 0 ] ; then
+            warn "Could not set maximum file descriptor limit: $MAX_FD"
+        fi
+    else
+        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+    fi
+fi
+
+# For Da# Increase the maximum file descriptors if we can.
+        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+            MAX_FD_LIMIT=`ulimit -H -n`
+            if [ $? -eq 0 ] ; then
+                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                    MAX_FD="$MAX_FD_LIMIT"
+                fi
+                ulimit -n $MAX_FD
+                if [ $? -ne 0 ] ; then
+                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                fi
+            else
+                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+            fi
+        fi
+
+        # For Da# Increase the maximum file descriptors if we can.
+                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                    MAX_FD_LIMIT=`ulimit -H -n`
+                    if [ $? -eq 0 ] ; then
+                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                            MAX_FD="$MAX_FD_LIMIT"
+                        fi
+                        ulimit -n $MAX_FD
+                        if [ $? -ne 0 ] ; then
+                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                        fi
+                    else
+                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                    fi
+                fi
+
+                # For Da# Increase the maximum file descriptors if we can.
+                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                            MAX_FD_LIMIT=`ulimit -H -n`
+                            if [ $? -eq 0 ] ; then
+                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                    MAX_FD="$MAX_FD_LIMIT"
+                                fi
+                                ulimit -n $MAX_FD
+                                if [ $? -ne 0 ] ; then
+                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                fi
+                            else
+                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                            fi
+                        fi
+
+                        # For Da# Increase the maximum file descriptors if we can.
+                                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                    MAX_FD_LIMIT=`ulimit -H -n`
+                                    if [ $? -eq 0 ] ; then
+                                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                            MAX_FD="$MAX_FD_LIMIT"
+                                        fi
+                                        ulimit -n $MAX_FD
+                                        if [ $? -ne 0 ] ; then
+                                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                        fi
+                                    else
+                                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                    fi
+                                fi
+
+                                # For Da=`basename "$0"`
 
 # Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD="maximum"
@@ -100,7 +420,169 @@ if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
     fi
 fi
 
-# For Darwin, add options to specify how the application appears in the dock
+# For Da# Increase the maximum file descriptors if we can.
+        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+            MAX_FD_LIMIT=`ulimit -H -n`
+            if [ $? -eq 0 ] ; then
+                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                    MAX_FD="$MAX_FD_LIMIT"
+                fi
+                ulimit -n $MAX_FD
+     # Increase the maximum file descriptors if we can.
+     if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+         MAX_FD_LIMIT=`ulimit -H -n`
+         if [ $? -eq 0 ] ; then
+             if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                 MAX_FD="$MAX_FD_LIMIT"
+             fi
+             ulimit -n $MAX_FD
+             if [ $? -ne 0 ] ; then
+                 warn "Could not set maximum file descriptor limit: $MAX_FD"
+             fi
+         else
+             warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+         fi
+     fi
+
+     # For Da# Increase the maximum file descriptors if we can.
+             if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                 MAX_FD_LIMIT=`ulimit -H -n`
+                 if [ $? -eq 0 ] ; then
+                     if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                         MAX_FD="$MAX_FD_LIMIT"
+                     fi
+                     ulimit -n $MAX_FD
+                     if [ $? -ne 0 ] ; then
+                         warn "Could not set maximum file descriptor limit: $MAX_FD"
+                     fi
+                 else
+                     warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                 fi
+             fi
+
+             # For Da# Increase the maximum file descriptors if we can.
+                     if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                         MAX_FD_LIMIT=`ulimit -H -n`
+                         if [ $? -eq 0 ] ; then
+                             if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                 MAX_FD="$MAX_FD_LIMIT"
+                             fi
+                             ulimit -n $MAX_FD
+                             if [ $? -ne 0 ] ; then
+                                 warn "Could not set maximum file descriptor limit: $MAX_FD"
+                             fi
+                         else
+                             warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                         fi
+                     fi
+
+                     # For Da# Increase the maximum file descriptors if we can.
+                             if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                 MAX_FD_LIMIT=`ulimit -H -n`
+                                 if [ $? -eq 0 ] ; then
+                                     if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                         MAX_FD="$MAX_FD_LIMIT"
+                                     fi
+                                     ulimit -n $MAX_FD
+                                     if [ $? -ne 0 ] ; then
+                                         warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                     fi
+                                 else
+                                     warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                 fi
+                             fi
+
+                             # For Da           if [ $? -ne 0 ] ; then
+                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                fi
+            else
+                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+            fi
+        fi
+
+        # For Da# Increase the maximum file descriptors if we can.
+                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                    MAX_FD_LIMIT=`ulimit -H -n`
+                    if [ $? -eq 0 ] ; then
+                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                            MAX_FD="$MAX_FD_LIMIT"
+                        fi
+                        ulimit -n $MAX_FD
+                        if [ $? -ne 0 ] ; then
+                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                        fi
+                    else
+                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                    fi
+                fi
+
+                # For Da# Increase the maximum file descriptors if we can.
+                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                            MAX_FD_LIMIT=`ulimit -H -n`
+                            if [ $? -eq 0 ] ; then
+                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                    MAX_FD="$MAX_FD_LIMIT"
+                                fi
+                                ulimit -n $MAX_FD
+                                if [ $? -ne 0 ] ; then
+                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                fi
+                            else
+                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                            fi
+                        fi
+
+                        # For Da# Increase the maximum file descriptors if we can.
+                                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                    MAX_FD_LIMIT=`ulimit -H -n`
+                                    if [ $? -eq 0 ] ; then
+                                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                            MAX_FD="$MAX_FD_LIMIT"
+                                        fi
+                                        ulimit -n $MAX_FD
+                                        if [ $? -ne 0 ] ; then
+                                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                        fi
+                                    else
+                                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                    fi
+                                fi
+
+                                # For Da# Increase the maximum file descriptors if we can.
+                                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                            MAX_FD_LIMIT=`ulimit -H -n`
+                                            if [ $? -eq 0 ] ; then
+                                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                    MAX_FD="$MAX_FD_LIMIT"
+                                                fi
+                                                ulimit -n $MAX_FD
+                                                if [ $? -ne 0 ] ; then
+                                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                fi
+                                            else
+                                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                            fi
+                                        fi
+
+                                        # For Da# Increase the maximum file descriptors if we can.
+                                                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                    MAX_FD_LIMIT=`ulimit -H -n`
+                                                    if [ $? -eq 0 ] ; then
+                                                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                            MAX_FD="$MAX_FD_LIMIT"
+                                                        fi
+                                                        ulimit -n $MAX_FD
+                                                        if [ $? -ne 0 ] ; then
+                                                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                        fi
+                                                    else
+                                                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                    fi
+                                                fi
+
+                                                # For Da
+
+rwin, add options to specify how the application appears in the dock
 if $darwin; then
     GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""
 fi
@@ -117,6 +599,154 @@ if $cygwin ; then
     for dir in $ROOTDIRSRAW ; do
         ROOTDIRS="$ROOTDIRS$SEP$dir"
         SEP="|"
+
+
+
+        # Increase the maximum file descriptors if we can.
+        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+            MAX_FD_LIMIT=`ulimit -H -n`
+            if [ $? -eq 0 ] ; then
+                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                    MAX_FD="$MAX_FD_LIMIT"
+                fi
+                ulimit -n $MAX_FD
+                if [ $? -ne 0 ] ; then
+                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                fi
+            else
+                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+            fi
+        fi
+
+        # For Da# Increase the maximum file descriptors if we can.
+                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                    MAX_FD_LIMIT=`ulimit -H -n`
+                    if [ $? -eq 0 ] ; then
+                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                            MAX_FD="$MAX_FD_LIMIT"
+                        fi
+                        ulimit -n $MAX_FD
+                        if [ $? -ne 0 ] ; then
+                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                        fi
+                    else
+                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                    fi
+                fi
+
+                # For Da# Increase the maximum file descriptors if we can.
+                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                            MAX_FD_LIMIT=`ulimit -H -n`
+                            if [ $? -eq 0 ] ; then
+                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                    MAX_FD="$MAX_FD_LIMIT"
+                                fi
+                                ulimit -n $MAX_FD
+                                if [ $? -ne 0 ] ; then
+                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                fi
+                            else
+                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                            fi
+                        fi
+
+                        # For Da# Increase the maximum file descriptors if we can.
+                                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                    MAX_FD_LIMIT=`ulimit -H -n`
+                                    if [ $? -eq 0 ] ; then
+                                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                            MAX_FD="$MAX_FD_LIMIT"
+                                        fi
+                                        ulimit -n $MAX_FD
+                                        if [ $? -ne 0 ] ; then
+                                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                        fi
+                                    else
+                                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                    fi
+                                fi
+
+                                # For Da# Increase the maximum file descriptors if we can.
+                                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                            MAX_FD_LIMIT=`ulimit -H -n`
+                                            if [ $? -eq 0 ] ; then
+                                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                    MAX_FD="$MAX_FD_LIMIT"
+                                                fi
+                                                ulimit -n $MAX_FD
+                                                if [ $? -ne 0 ] ; then
+                                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                fi
+                                            else
+                                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                             # Increase the maximum file descriptors if we can.
+                             if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                 MAX_FD_LIMIT=`ulimit -H -n`
+                                 if [ $? -eq 0 ] ; then
+                                     if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                         MAX_FD="$MAX_FD_LIMIT"
+                                     fi
+                                     ulimit -n $MAX_FD
+                                     if [ $? -ne 0 ] ; then
+                                         warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                     fi
+                                 else
+                                     warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                 fi
+                             fi
+
+                             # For Da# Increase the maximum file descriptors if we can.
+                                     if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                         MAX_FD_LIMIT=`ulimit -H -n`
+                                         if [ $? -eq 0 ] ; then
+                                             if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                 MAX_FD="$MAX_FD_LIMIT"
+                                             fi
+                                             ulimit -n $MAX_FD
+                                             if [ $? -ne 0 ] ; then
+                                                 warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                             fi
+                                         else
+                                             warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                         fi
+                                     fi
+
+                                     # For Da# Increase the maximum file descriptors if we can.
+                                             if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                 MAX_FD_LIMIT=`ulimit -H -n`
+                                                 if [ $? -eq 0 ] ; then
+                                                     if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                         MAX_FD="$MAX_FD_LIMIT"
+                                                     fi
+                                                     ulimit -n $MAX_FD
+                                                     if [ $? -ne 0 ] ; then
+                                                         warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                     fi
+                                                 else
+                                                     warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                 fi
+                                             fi
+
+                                             # For Da               fi
+                                        fi
+
+                                        # For Da# Increase the maximum file descriptors if we can.
+                                                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                    MAX_FD_LIMIT=`ulimit -H -n`
+                                                    if [ $? -eq 0 ] ; then
+                                                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                            MAX_FD="$MAX_FD_LIMIT"
+                                                        fi
+                                                        ulimit -n $MAX_FD
+                                                        if [ $? -ne 0 ] ; then
+                                                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                        fi
+                                                    else
+                                                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                    fi
+                                                fi
+
+                                                # For Da
     done
     OURCYGPATTERN="(^($ROOTDIRS))"
     # Add a user-defined pattern to the cygpath arguments
@@ -135,6 +765,105 @@ if $cygwin ; then
             eval `echo args$i`="\"$arg\""
         fi
         i=$((i+1))
+
+
+        # Increase the maximum file descriptors if we can.
+        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+            MAX_FD_LIMIT=`ulimit -H -n`
+            if [ $? -eq 0 ] ; then
+                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                    MAX_FD="$MAX_FD_LIMIT"
+                fi
+                ulimit -n $MAX_FD
+                if [ $? -ne 0 ] ; then
+                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                fi
+            else
+                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+            fi
+        fi
+
+        # For Da# Increase the maximum file descriptors if we can.
+                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                    MAX_FD_LIMIT=`ulimit -H -n`
+                    if [ $? -eq 0 ] ; then
+                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                            MAX_FD="$MAX_FD_LIMIT"
+                        fi
+                        ulimit -n $MAX_FD
+                        if [ $? -ne 0 ] ; then
+                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                        fi
+                    else
+                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                    fi
+                fi
+
+                # For Da# Increase the maximum file descriptors if we can.
+                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                            MAX_FD_LIMIT=`ulimit -H -n`
+                            if [ $? -eq 0 ] ; then
+                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                    MAX_FD="$MAX_FD_LIMIT"
+                                fi
+                                ulimit -n $MAX_FD
+                                if [ $? -ne 0 ] ; then
+                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                fi
+                            else
+                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                            fi
+                        fi
+
+                        # For Da# Increase the maximum file descriptors if we can.
+                                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                    MAX_FD_LIMIT=`ulimit -H -n`
+                                    if [ $? -eq 0 ] ; then
+                                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                            MAX_FD="$MAX_FD_LIMIT"
+                                        fi
+                                        ulimit -n $MAX_FD
+                                        if [ $? -ne 0 ] ; then
+                                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                        fi
+                                    else
+                                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                    fi
+                                fi
+
+                                # For Da# Increase the maximum file descriptors if we can.
+                                        if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                            MAX_FD_LIMIT=`ulimit -H -n`
+                                            if [ $? -eq 0 ] ; then
+                                                if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                    MAX_FD="$MAX_FD_LIMIT"
+                                                fi
+                                                ulimit -n $MAX_FD
+                                                if [ $? -ne 0 ] ; then
+                                                    warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                fi
+                                            else
+                                                warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                            fi
+                                        fi
+
+                                        # For Da# Increase the maximum file descriptors if we can.
+                                                if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                    MAX_FD_LIMIT=`ulimit -H -n`
+                                                    if [ $? -eq 0 ] ; then
+                                                        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                            MAX_FD="$MAX_FD_LIMIT"
+                                                        fi
+                                                        ulimit -n $MAX_FD
+                                                        if [ $? -ne 0 ] ; then
+                                                            warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                        fi
+                                                    else
+                                                        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                    fi
+                                                fi
+
+                                                # For Da
     done
     case $i in
         (0) set -- ;;
@@ -154,7 +883,167 @@ fi
 function splitJvmOpts() {
     JVM_OPTS=("$@")
 }
-eval splitJvmOpts $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS
+eval splitJvmOpts $DEFAULT_JV# Increase the maximum file descriptors if we can.
+                             if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                 MAX_FD_LIMIT=`ulimit -H -n`
+                                 if [ $? -eq 0 ] ; then
+                                     if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                         MAX_FD="$MAX_FD_LIMIT"
+                                     fi
+                                     ulimit -n $MAX_FD
+                                     if [ $? -ne 0 ] ; then
+                                         warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                     fi
+                                 else
+                                     warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                 fi
+                             fi
+
+                             # For Da# Increase the maximum file descriptors if we can.
+                                     if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                         MAX_FD_LIMIT=`ulimit -H -n`
+                                         if [ $? -eq 0 ] ; then
+                                             if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                 MAX_FD="$MAX_FD_LIMIT"
+                                             fi
+                                             ulimit -n $MAX_FD
+                                             if [ $? -ne 0 ] ; then
+                                                 warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                             fi
+                                         else
+                                             warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                         fi
+                                     fi
+
+                                     # For Da# Increase the maximum file descriptors if we can.
+                                             if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                 MAX_FD_LIMIT=`ulimit -H -n`
+                                                 if [ $? -eq 0 ] ; then
+                                                     if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                         MAX_FD="$MAX_FD_LIMIT"
+                                                     fi
+                                                     ulimit -n $MAX_FD
+                                                     if [ # Increase the maximum file descriptors if we can.
+                                                          if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                              MAX_FD_LIMIT=`ulimit -H -n`
+                                                              if [ $? -eq 0 ] ; then
+                                                                  if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                                      MAX_FD="$MAX_FD_LIMIT"
+                                                                  fi
+                                                                  ulimit -n $MAX_FD
+                                                                  if [ $? -ne 0 ] ; then
+                                                                      warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                                  fi
+                                                              else
+                                                                  warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                              fi
+                                                          fi
+
+                                                          # For Da# Increase the maximum file descriptors if we can.
+                                                                  if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                                      MAX_FD_LIMIT=`ulimit -H -n`
+                                                                      if [ $? -eq 0 ] ; then
+                                                                          if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                                              MAX_FD="$MAX_FD_LIMIT"
+                                                                          fi
+                                                                          ulimit -n $MAX_FD
+                                                                          if [ $? -ne 0 ] ; then
+                                                                              warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                                          fi
+                                                                      else
+                                                                          warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                                      fi
+                                                                  fi
+
+                                                                  # For Da# Increase the maximum file descriptors if we can.
+                                                                          if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                                              MAX_FD_LIMIT=`ulimit -H -n`
+                                                                              if [ $? -eq 0 ] ; then
+                                                                                  if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                                                      MAX_FD="$MAX_FD_LIMIT"
+                                                                                  fi
+                                                                                  ulimit -n $MAX_FD
+                                                                                  if [ $? -ne 0 ] ; then
+                                                                                      warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                                                  fi
+                                                                              else
+                                                                                  warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                                              fi
+                                                                          fi
+
+                                                                          # For Da# Increase the maximum file descriptors if we can.
+                                                                                  if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                                                      MAX_FD_LIMIT=`ulimit -H -n`
+                                                                                      if [ $? -eq 0 ] ; then
+                                                                                          if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                                                              MAX_FD="$MAX_FD_LIMIT"
+                                                                                          fi
+                                                                                          ulimit -n $MAX_FD
+                                                                                          if [ $? -ne 0 ] ; then
+                                                                                              warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                                                          fi
+                                                                                      else
+                                                                                          warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                                                      fi
+                                                                                  fi
+
+                                                                                  # For Da# Increase the maximum file descriptors if we can.
+                                                                                          if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                                                              MAX_FD_LIMIT=`ulimit -H -n`
+                                                                                              if [ $? -eq 0 ] ; then
+                                                                                                  if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                                                                      MAX_FD="$MAX_FD_LIMIT"
+                                                                                                  fi
+                                                                                                  ulimit -n $MAX_FD
+                                                                                                  if [ $? -ne 0 ] ; then
+                                                                                                      warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                                                                  fi
+                                                                                              else
+                                                                                                  warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                                                              fi
+                                                                                          fi
+
+                                                                                          # For Da$? -ne 0 ] ; then
+                                                         warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                     fi
+                                                 else
+                                                     warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                 fi
+                                             fi
+
+                                             # For Da# Increase the maximum file descriptors if we can.
+                                                     if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                         MAX_FD_LIMIT=`ulimit -H -n`
+                                                         if [ $? -eq 0 ] ; then
+                                                             if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                                 MAX_FD="$MAX_FD_LIMIT"
+                                                             fi
+                                                             ulimit -n $MAX_FD
+                                                             if [ $? -ne 0 ] ; then
+                                                                 warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                             fi
+                                                         else
+                                                             warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                         fi
+                                                     fi
+
+                                                     # For Da# Increase the maximum file descriptors if we can.
+                                                             if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
+                                                                 MAX_FD_LIMIT=`ulimit -H -n`
+                                                                 if [ $? -eq 0 ] ; then
+                                                                     if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
+                                                                         MAX_FD="$MAX_FD_LIMIT"
+                                                                     fi
+                                                                     ulimit -n $MAX_FD
+                                                                     if [ $? -ne 0 ] ; then
+                                                                         warn "Could not set maximum file descriptor limit: $MAX_FD"
+                                                                     fi
+                                                                 else
+                                                                     warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
+                                                                 fi
+                                                             fi
+
+                                                             # For DaM_OPTS $JAVA_OPTS $GRADLE_OPTS
 JVM_OPTS[${#JVM_OPTS[*]}]="-Dorg.gradle.appname=$APP_BASE_NAME"
 
 exec "$JAVACMD" "${JVM_OPTS[@]}" -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
