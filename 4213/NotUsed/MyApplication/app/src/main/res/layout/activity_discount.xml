@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lazarakos.myapplication.Discount">
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Choose Product "
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Discount"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Initial Product's Price :"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final Product's Price :"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="106dp"
+        android:layout_height="72dp"
+        android:text="Check it first"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="182dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="183dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+</android.support.constraint.ConstraintLayout>
